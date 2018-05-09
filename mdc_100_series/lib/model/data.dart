@@ -291,4 +291,7 @@ List<Product> getProducts(Category category) {
     }).toList();
   }
 }
+List<Product> getAllProducts() {
+  return getProducts(Category.all);
+}
 
